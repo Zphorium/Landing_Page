@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+#navbar{
+    margin: 0px 291px 40px;
+    padding: 20px 12px;
+}
+#navbar .left a{
+    cursor: pointer;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9); 
+    float: left;
+    width: 50%;
+    font-weight: 700;
+}
+#navbar .right a{
+    float: right;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+#email{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 100px 400px;
+    width: 100%;
+}
+#email .top{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700px;
+    margin-bottom: 100px;
+}
+
+#email .bottom_left{
+    width: 50%;
+    float: left;  
+}
+#email .bottom_left input{
+    margin-left: 548px;
+    padding: 21px 332px 21px 10px;
+    border-radius: 4px;
+    border-color: #fff;
+    background-color: #fff
+}
+#email .bottom_right{
+    width: 40%;
+    float: right;
+}
+#email .bottom_right button{
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    margin-left: 79px;
+    color: #fff;
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    opacity: 49%;
+    transition: 0.5s;
+}
+#email .bottom_right button:hover{
+    opacity: 100%;
+    background-color: #0c55c4;
+}
+
+#icons{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 60px ;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#icons .first{
+    width: 32%;
+}
+#icons i{
+    padding: 30px;
+    color: #0D6EFD;
+    font-size: 80px
+}
+#icons .second{
+    width: 32%;
+    margin-left: 30px;
+}
+#icons .third{
+    width: 32%;
+    margin-left: 30px;
+}
+#about{
+    width: 100%;
+}
+#about .first .left{
+    padding-bottom: 166px;
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+#about .first .left h1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-left: 105px;
+}
+#about .first .left p{
+    margin-left: 105px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+#about .first .right{
+    float: right;
+    width: 50%;
+    margin-right: 50px;
+}
+#about .first .right img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 50px;
+    height: 425px;
+    width: 100%;
+}
+#about .second .right{
+    padding-bottom: 273px;
+    float: right;
+    width: 40%;
+    text-align: left;
+    margin-left: 10px;
+}
+#about .second .right h1{
+    margin-top: 140px;
+}
+#about .second .left{
+    width: 51%;
+    text-align: left;
+}
+#about .second .left img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 425px;
+    width: 100%;
+}
+
+#about .third .left{
+    padding-bottom: 166px;
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+#about .third .left h1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-left: 105px;
+}
+#about .third .left p{
+    margin-left: 105px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+#about .third .right{
+    float: right;
+    width: 50%;
+    margin-right: 50px;
+}
+#about .third .right img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 50px;
+    height: 425px;
+    width: 100%;
+    
+}
+#commet .top{
+    margin-top: 600px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#commet .top h1{
+    font-size: 2rem;
+} 
+#commet .bottom{
+    width: 100%
+}
+#commet .bottom .people .first{
+    float: left;
+    text-align: center;
+    width: 26%;
+    margin-left: 200px;
+}
+#commet .bottom .people .second{
+    float: left;
+    text-align: center;
+    width: 26%;
+}
+#commet .bottom .people .third{
+    float: left;
+    text-align: center;
+    width: 26%
+}
+#commet .bottom .people img{
+    clip-path: circle(50% at 50% 50%);
+    width: 192px;
+    height: 192px;
+}
+#redy{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 100px 200px;
+    width: 100%;
+    margin-top: 460px;
+}
+#redy .top{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700px;
+    margin-bottom: 70px;
+}
+#redy .bottom_left{
+    width: 50%;
+    float: left;  
+}
+#redy .bottom_left input{
+    margin-left: 548px;
+    padding: 21px 332px 21px 10px;
+    border-radius: 4px;
+    border-color: #fff;
+    background-color: #fff
+}
+#redy .bottom_right{
+    width: 40%;
+    float: right;
+}
+#redy .bottom_right button{
+    padding: 1.1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    margin-left: 70px;
+    color: #fff;
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    opacity: 49%;
+    transition: 0.5s;
+}
+#redy .bottom_right button:hover{
+    opacity: 100%;
+    background-color: #0c55c4;
+}
+#footer{
+    margin-top: 20px;
+}
+#footer .left {
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+}
+#footer .left .top {
+    display: inline-block;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 170px;
+    color: #0c55c4;
+    font-size: 1.5rem;
+    
+}
+#footer .left .top a{
+margin-left: 30px;
+}
+
+#footer .left  .bottom h4{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 200px;
+    font-weight: 300;
+}
+#footer .right{
+    float: right;
+    width: 30%;
+}
+#footer .right .first{
+    float: left;
+}
+#footer .right .second{
+    float: left;
+}
+#footer .right .third{
+    float: left;
+}
+#footer .right i{
+    color: #0c55c4;
+    font-size: 40px;
+    padding: 40px;
+}
